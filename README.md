@@ -6,6 +6,7 @@ The Efficient Market Hypothesis (EMH) asserts that stock prices fully incorporat
 This research explores whether unstructured financial news holds predictive power over stock price movement. Specifically, the investigation focuses on the following questions:
 1. Can textual features—such as sentiment, word importance, and Named Entity Recognition —effectively predict whether the Dow Jones Industrial Average (DJIA) will rise or fall?
 2. What types of news and specific keywords influence stock prices, and how do these factors manifest in price changes?
+
 Uncovering meaningful relationships between news content and stock price behavior has the potential to provide valuable insights for refining trading strategies, enhancing market analysis, and deepening the understanding of how unstructured information drives financial decision-making.
 ## Dataset Description
 The research is based on three key datasets: Reddit News, which compiles news headlines from Reddit; Combined News DJIA, a consolidated dataset of news headlines with an indicator on the price movement of DJIA; and DJIA Table, which provides historical performance data for the DJIA. The main focus will be on the Combined News DJIA and DJIA Table which have the necessary features and labels to conduct the research. A key column to highlight is the Label column in DJIA Table, which is a binary indicator: a value of 1 signifies that the DJIA price increased or remained the same, while a value of 0 indicates a decrease.
